@@ -1,0 +1,79 @@
+.container{
+    background-color: blue;
+}
+.header{
+    background-color: gray;
+    display: flex;
+    justify-items: center;
+
+}
+.logo,.buscador{
+    width: 100px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo{
+    margin-left: 15px;
+    margin-right: 30%;
+    background-color: yellow;
+}
+
+.buscador{
+    margin-left: 46%;
+    
+}
+.text-header{
+    margin-top: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+.logotext{
+    text-align: center;
+    padding-top: 5px;
+}
+/*BODY*/
+.body{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content{
+    background-color: green;
+    width: 85%;
+    margin: 10px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-bar{
+    background-color: aquamarine;
+    width: 15%;
+    margin: 10px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto,.ftext{
+    text-align: center;
+}
+/*FOOTER*/
+.footer{
+    display: flex;
+    background-color: rgb(21, 99, 99);
+}
+.footer-1, .footer-2, .footer-3{
+    background-color: bisque;
+    margin: 15px 250px;
+    width: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footext{
+    padding-top: 30px;
+}
