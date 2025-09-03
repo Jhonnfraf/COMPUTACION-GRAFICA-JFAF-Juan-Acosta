@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --color-titulo: #ff4900;
+    --color-p1: #0093FF;
+    --color-p2: #c500ff;
+    --color-vinculo: #001bff;
+    --fuente-principal: Arial, sans-serif;
+    --fuente-secundaria: 'Nerko One', sans-serif;
+    --tamano-titulo: 2rem;
+    --tamano-p1: 16px; 
+    --tamano-p2: 12px;
+}
