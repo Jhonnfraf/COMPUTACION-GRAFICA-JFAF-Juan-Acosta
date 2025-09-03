@@ -1,0 +1,13 @@
+/*Variables de estilo locales*/
+:root{
+    --color-fondos: #dbe0f3;
+    --color-primario: #040557;
+    --border-radius-1: .25rem;
+    --font-size: 1rem;
+    --font-family-1: "Roboto", 'Sans-serif';
+}
+
+h1{
+    font-size: var(--font-size);
+    color: black;
+}
