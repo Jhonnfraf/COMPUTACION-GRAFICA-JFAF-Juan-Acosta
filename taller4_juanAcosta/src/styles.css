@@ -1,12 +1,117 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 :root {
-    --color-titulo: #ff4900;
-    --color-p1: #0093FF;
-    --color-p2: #c500ff;
-    --color-vinculo: #001bff;
-    --fuente-principal: Arial, sans-serif;
-    --fuente-secundaria: 'Nerko One', sans-serif;
-    --tamano-titulo: 2rem;
-    --tamano-p1: 16px; 
-    --tamano-p2: 12px;
+  /* Colores y tipografías base */
+  --color-titulo: #ff4900;
+  --color-p1: #0093FF;
+  --color-p2: #c500ff;
+  --color-vinculo: #001bff;
+  --fuente-principal: Arial, sans-serif;
+  --fuente-secundaria: 'Nerko One', sans-serif;
+
+  /* Tamaños base */
+  --tamano-titulo: 2rem;
+  --tamano-p1: 16px;      
+  --tamano-p2: 12px;
+
+  /* Fondo general */
+  --background-color: rgb(210, 245, 255);
+
+  /* Lista de vínculos */
+  --lista-estilo: none;
+  --lista-padding: 0;
+
+  /* Vínculos */
+  --peso-vinculo: bold;
+  --decoracion-vinculo: none;
+  --color-vinculo-visitado: #4CAF50;
+  --color-vinculo-hover: #ff6600;
+  --decoracion-vinculo-hover: underline;
+
+  /* Tabla */
+  --tabla-ancho: 100%;
+  --tabla-colapso-borde: collapse;
+  --tabla-margen-superior: 20px;
+  --tabla-texto-centrado: center;
+
+  /* Encabezado de tabla */
+  --encabezado-bg: #000000;
+  --encabezado-texto: #ffffff;
+  --encabezado-tamano: 1.5rem;
+  --encabezado-padding: 10px;
+
+  /* Filas */
+  --fila-par-bg: #bec1c3;
+  --fila-par-texto: #000000;
+  --fila-par-tamano: 1.5rem;
+
+  --fila-impar-bg: #045795;
+  --fila-impar-texto: #ffffff;
+  --fila-impar-tamano: 1.5rem;
+}
+
+html, body {
+  background-color: var(--background-color);
+}
+
+.titulo-principal {
+  color: var(--color-titulo);
+  font-size: var(--tamano-titulo);
+  font-family: var(--fuente-principal);
+}
+
+.parrafo-principal {
+  font-size: var(--tamano-p1);
+  color: var(--color-p1);
+  font-family: var(--fuente-principal);
+}
+
+.parrafo-secundario {
+  font-size: var(--tamano-p2);
+  color: var(--color-p2);
+  font-family: var(--fuente-secundaria);
+}
+
+.lista-vinculos {
+  list-style: var(--lista-estilo);
+  padding: var(--lista-padding);
+}
+
+.vinculo {
+  color: var(--color-vinculo);
+  font-weight: var(--peso-vinculo);
+  text-decoration: var(--decoracion-vinculo);
+}
+
+a:visited { 
+  color: var(--color-vinculo-visitado);
+}
+a:hover {
+  color: var(--color-vinculo-hover);
+  text-decoration: var(--decoracion-vinculo-hover);
+}
+
+.tabla-productos {
+  border-collapse: var(--tabla-colapso-borde);
+  width: var(--tabla-ancho);
+  margin-top: var(--tabla-margen-superior);
+  text-align: var(--tabla-texto-centrado);
+}
+
+.encabezado-tabla {
+  background-color: var(--encabezado-bg);
+  color: var(--encabezado-texto);
+  font-size: var(--encabezado-tamano);
+  padding: var(--encabezado-padding);
+}
+
+.fila-par {
+  background-color: var(--fila-par-bg);
+  color: var(--fila-par-texto);
+  font-size: var(--fila-par-tamano);
+}
+.fila-impar {
+  background-color: var(--fila-impar-bg);
+  color: var(--fila-impar-texto);
+  font-size: var(--fila-impar-tamano);
 }
