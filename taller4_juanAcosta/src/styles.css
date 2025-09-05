@@ -6,8 +6,8 @@
   --color-p1: #0093FF;
   --color-p2: #c500ff;
   --color-vinculo: #001bff;
-  --fuente-principal: Arial, sans-serif;
-  --fuente-secundaria: 'Nerko One', sans-serif;
+  --fuente-principal: 'Nerko One', sans-serif;
+  --fuente-secundaria: Arial, sans-serif;
 
   /* Tamaños base */
   --tamano-titulo: 2rem;
