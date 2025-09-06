@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: rgb(21, 99, 99);
+    padding: 20px;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.footer-1, .footer-2, .footer-3 {
+    background-color: bisque;
+    width: 200px;       
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

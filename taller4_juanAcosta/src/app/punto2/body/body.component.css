@@ -1,0 +1,22 @@
+.body {
+    display: flex;
+}
+
+.side-bar{
+    background-color: aquamarine;
+    width: 15%;
+    margin: 10px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: green;
+    width: 80%;
+    margin: 10px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

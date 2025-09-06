@@ -4,7 +4,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 
 @Component({
   selector: 'app-body',
-  imports: [],
+  imports: [ContentComponent, SideBarComponent],
   templateUrl: './body.component.html',
   styleUrl: './body.component.css'
 })
